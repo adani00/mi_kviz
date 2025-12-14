@@ -496,7 +496,7 @@ const questions = [
         "question": "Melyek az alábbiak közül a hegymászó módszer hátrányai?",
         "type": "multi",
         "options": [
-            "Kicsit a memória igénye",
+            "Kicsi a memória igénye",
             "Nem garantál optimális megoldást",
             "Körök mentén végtelen működésbe kezdhet",
             "Zsákutcába érve a keresés megáll"
@@ -1701,7 +1701,7 @@ const questions = [
     {
         "id": 109,
         "category": "10. Bizonytalanság kezelése",
-        "question": "Hogyan szimuláljuk az A esemény valószínűségét feltéve, hogy B esemény – amely valószínűsége nagyobb, mint nulla – bekövetkezik?",
+        "question": "Hogyan számoljuk az A esemény valószínűségét feltéve, hogy B esemény – amely valószínűsége nagyobb, mint nulla – bekövetkezik?",
         "type": "single",
         "options": [
             "P(A|B) = P(A, B) / P(A)",
