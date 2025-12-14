@@ -377,6 +377,8 @@
             toggleTheme(); // Ez átbillenti sötétre
         }
 
+        const questions = window.questions;
+
         if (typeof questions === 'undefined' || questions.length === 0) {
             alert("Hiba: A questions.js fájl hiányzik vagy üres! Győződj meg róla, hogy egy mappában vannak.");
             return;

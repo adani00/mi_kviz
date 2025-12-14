@@ -2504,3 +2504,5 @@ const questions = [
         ]
     }
 ];
+
+window.questions = questions;
