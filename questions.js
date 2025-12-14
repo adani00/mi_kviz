@@ -916,18 +916,12 @@ const questions = [
     "id": 60,
     "category": "5. Gráfkeresés",
     "question": "Mely fogalmak kapcsolhatók egymáshoz a gráfkereséseknél:",
-    "type": "multi",
-    "options": [
-      "globális munkaterület: keresőgráf",
-      "keresési szabály: kiterjesztés",
-      "pointerfüggvény: szülőcsúcs",
-      "csökkenő kiértékelő függvény: korrektség"
-    ],
-    "correct": [
-      0,
-      1,
-      2,
-      3
+    "type": "pair",
+    "pairs": [
+      { "left": "globális munkaterület", "right": "keresőgráf" },
+      { "left": "keresési szabály", "right": "kiterjesztés" },
+      { "left": "pointerfüggvény", "right": "szülőcsúcs" },
+      { "left": "csökkenő kiértékelő függvény", "right": "korrektség" }
     ]
   },
   {
@@ -2216,7 +2210,7 @@ const questions = [
     "id": 145,
     "category": "13. Egyéb talált kérdések",
     "question": "Mit nevezünk egy kereső rendszer globális munkaterületének?",
-    "type": "multi",
+    "type": "single",
     "options": [
       "A kereső rendszer által használt memóriaterületet.",
       "Azt a memóriaterületet, amelyen a keresés eltárolja a megszerzett, és megőrzésre hasznosnak ítélt ismereteket.",
@@ -2247,7 +2241,7 @@ const questions = [
     "id": 147,
     "category": "13. Egyéb talált kérdések",
     "question": "Az alábbi algoritmusok közül melyek használnak módosítható stratégiát?",
-    "type": "multi",
+    "type": "single",
     "options": [
       "szélességi gráfkeresés",
       "tabu keresés",
@@ -2338,7 +2332,7 @@ const questions = [
     "id": 153,
     "category": "13. Egyéb talált kérdések",
     "question": "Az alábbiak közül melyik NEM modellfüggő vezérlési stratégia?",
-    "type": "multi",
+    "type": "single",
     "options": [
       "A legjobb csúcsot válasszuk a szomszédos csúcsok közül.",
       "A visszalépéses keresés részlegesen előre vizsgáló (FC) módszere.",
@@ -2458,6 +2452,7 @@ const questions = [
 ];
 
 window.questions = questions;
+
 
 
 
