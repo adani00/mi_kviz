@@ -2021,18 +2021,12 @@ const questions = [
     "id": 132,
     "category": "11. Gépi tanulás",
     "question": "Mely fogalmak kapcsolhatók össze az alábbiak közül a gépi tanulás témakörében?",
-    "type": "multi",
-    "options": [
-      "Felügyelt tanulás: tanító minták elvárt kimenete",
-      "kereszt entrópia: 2-es norma",
-      "döntési fa: véletlen erdő",
-      "k-közép módszer: osztályozási feladat"
-    ],
-    "correct": [
-      0,
-      1,
-      2,
-      3
+    "type": "pair",
+    "pairs": [
+      { "left": "Felügyelt tanulás", "right": "tanító minták elvárt kimenete" },
+      { "left": "kereszt entrópia", "right": "2-es norma" },
+      { "left": "döntési fa", "right": "véletlen erdő" },
+      { "left": "k-közép módszer", "right": "osztályozási feladat" }
     ]
   },
   {
@@ -2464,5 +2458,6 @@ const questions = [
 ];
 
 window.questions = questions;
+
 
 
