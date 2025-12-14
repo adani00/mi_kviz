@@ -637,6 +637,21 @@ const questions = [
     {
         "id": 41,
         "category": "4. Visszalépéses keresés",
+        "question": "Melyik állítás NEM igaz a visszalépéses keresés második változatára az alábbiak közül?",
+        "type": "single",
+        "options": [
+            "A körfigyelés elhagyása végtelen fák esetén mindenképpen gyorsítja a megoldás megtalálását.",
+            "A körfigyelés elhagyása kicsi mélységi korlát mellett gyorsíthatja a futási időt.",
+            "A körfigyelés elhagyása növeli a memória igényét.",
+            "A körfigyelés elhagyása mindenképpen gyorsítja a megoldás megtalálását."
+        ],
+        "correct": [
+            3
+        ]
+    },
+    {
+        "id": 42,
+        "category": "4. Visszalépéses keresés",
         "question": "Melyek az alábbiak közül a visszalépéses keresés hátrányai",
         "type": "multi",
         "options": [
@@ -651,7 +666,7 @@ const questions = [
         ]
     },
     {
-        "id": 42,
+        "id": 43,
         "category": "4. Visszalépéses keresés",
         "question": "4-királynő probléma 2. állapottér modellje: Hány startcsúcsból kivezető utat vizsgál meg ebben a visszalépéses keresés második változata, ha a mélységi korlát 2?",
         "type": "single",
@@ -666,7 +681,7 @@ const questions = [
         ]
     },
     {
-        "id": 43,
+        "id": 44,
         "category": "4. Visszalépéses keresés",
         "question": "Mely állítások igazak a visszalépéses keresés második változatára az alábbiak közül?",
         "type": "multi",
@@ -682,7 +697,7 @@ const questions = [
         ]
     },
     {
-        "id": 44,
+        "id": 45,
         "category": "4. Visszalépéses keresés",
         "question": "Mely állítások NEM igazak a visszalépéses keresés második változatára?",
         "type": "multi",
@@ -698,7 +713,7 @@ const questions = [
         ]
     },
     {
-        "id": 45,
+        "id": 46,
         "category": "4. Visszalépéses keresés",
         "question": "Melyek az alábbiak közül a visszalépéses keresés előnyei?",
         "type": "multi",
@@ -715,7 +730,7 @@ const questions = [
         ]
     },
     {
-        "id": 46,
+        "id": 47,
         "category": "4. Visszalépéses keresés",
         "question": "Mely állítások NEM igazak az alábbiak közül?",
         "type": "single",
@@ -731,7 +746,7 @@ const questions = [
         ]
     },
     {
-        "id": 47,
+        "id": 48,
         "category": "4. Visszalépéses keresés",
         "question": "Képzelje maga elé a Hanoi tornyaiprobléma állapotgráfját három korong esetén. A startcsúcsból kivezető utak közül  hányat vizsgál meg a visszalépéses keresés második változata, ha a mélységi korlát 3?",
         "type": "single",
@@ -746,7 +761,7 @@ const questions = [
         ]
     },
     {
-        "id": 48,
+        "id": 49,
         "category": "5. Gráfkeresés",
         "question": "Mit tartalmaz a gráfkeresés globális munkaterülete?",
         "type": "single",
@@ -761,7 +776,7 @@ const questions = [
         ]
     },
     {
-        "id": 49,
+        "id": 50,
         "category": "5. Gráfkeresés",
         "question": "Melyek a gráfkeresés keresési szabályai?",
         "type": "single",
@@ -776,7 +791,7 @@ const questions = [
         ]
     },
     {
-        "id": 50,
+        "id": 51,
         "category": "5. Gráfkeresés",
         "question": "Mi a gráfkeresés általános vezérlési stratégiája",
         "type": "single",
@@ -791,7 +806,7 @@ const questions = [
         ]
     },
     {
-        "id": 51,
+        "id": 52,
         "category": "5. Gráfkeresés",
         "question": "mely csúcsokat nevezzük a gráfkereséseknél nyílt csúcsoknak?",
         "type": "single",
@@ -806,7 +821,7 @@ const questions = [
         ]
     },
     {
-        "id": 52,
+        "id": 53,
         "category": "5. Gráfkeresés",
         "question": "Mit mutat a gráfkereséseknél a szülőre visszamutató pointerfüggvény (pi)",
         "type": "single",
@@ -821,7 +836,7 @@ const questions = [
         ]
     },
     {
-        "id": 53,
+        "id": 54,
         "category": "5. Gráfkeresés",
         "question": "Mit mutat a gráfkereséseknél a költségfüggvény (g)?",
         "type": "single",
@@ -836,7 +851,7 @@ const questions = [
         ]
     },
     {
-        "id": 54,
+        "id": 55,
         "category": "5. Gráfkeresés",
         "question": "Mikor nevezünk egy kiértékelő függvény csökkenőnek",
         "type": "single",
@@ -851,7 +866,7 @@ const questions = [
         ]
     },
     {
-        "id": 55,
+        "id": 56,
         "category": "5. Gráfkeresés",
         "question": "Hogyan lehet a keresőgráf korrektségét fenntartani?",
         "type": "single",
@@ -867,7 +882,7 @@ const questions = [
         ]
     },
     {
-        "id": 56,
+        "id": 57,
         "category": "5. Gráfkeresés",
         "question": "Mikor mondjuk a keresőgráf egyik csúcsára, hogy korrekt?",
         "type": "single",
@@ -883,7 +898,7 @@ const questions = [
         ]
     },
     {
-        "id": 57,
+        "id": 58,
         "category": "5. Gráfkeresés",
         "question": "Mely állítások igazak az alábbiak közül a gráfkeresés általános algoritmusára?",
         "type": "multi",
@@ -900,7 +915,7 @@ const questions = [
         ]
     },
     {
-        "id": 58,
+        "id": 59,
         "category": "5. Gráfkeresés",
         "question": "Melyik állítások NEM igazak az alábbiak közül a gráfkeresés általános algoritmusára?",
         "type": "multi",
@@ -916,7 +931,7 @@ const questions = [
         ]
     },
     {
-        "id": 59,
+        "id": 60,
         "category": "5. Gráfkeresés",
         "question": "Mely fogalmak kapcsolhatók egymáshoz a gráfkereséseknél:",
         "type": "multi",
@@ -934,7 +949,7 @@ const questions = [
         ]
     },
     {
-        "id": 60,
+        "id": 61,
         "category": "6. A* algoritmus",
         "question": "Lehet-e sorrendi heurisztika egy nem informált gráfkeresés másodlagos vezérlési stratégiájában?",
         "type": "single",
@@ -949,7 +964,7 @@ const questions = [
         ]
     },
     {
-        "id": 61,
+        "id": 62,
         "category": "6. A* algoritmus",
         "question": "Mit jelent a gráfkereséseknél a megengedhetőség fogalma",
         "type": "single",
@@ -964,7 +979,7 @@ const questions = [
         ]
     },
     {
-        "id": 62,
+        "id": 63,
         "category": "6. A* algoritmus",
         "question": "Melyik állítás NEM igaz az azonosan nulla függvényről?",
         "type": "single",
@@ -979,7 +994,7 @@ const questions = [
         ]
     },
     {
-        "id": 63,
+        "id": 64,
         "category": "6. A* algoritmus",
         "question": "Melyik gráfkereső algoritmust nevezzük A* algoritmusnak?",
         "type": "single",
@@ -994,7 +1009,7 @@ const questions = [
         ]
     },
     {
-        "id": 64,
+        "id": 65,
         "category": "6. A* algoritmus",
         "question": "Mi az alábbiak közül az A algoritmus tulajdonsága?",
         "type": "single",
@@ -1009,7 +1024,7 @@ const questions = [
         ]
     },
     {
-        "id": 65,
+        "id": 66,
         "category": "6. A* algoritmus",
         "question": "Mely állítás NEM igaz a következetes A^c algoritmusra?",
         "type": "single",
@@ -1024,7 +1039,7 @@ const questions = [
         ]
     },
     {
-        "id": 66,
+        "id": 67,
         "category": "6. A* algoritmus",
         "question": "Mennyi a B algoritmus kiterjesztéseinek száma legrosszabb esetben, ha a kiterjesztett csúcsok száma k?",
         "type": "single",
@@ -1039,7 +1054,7 @@ const questions = [
         ]
     },
     {
-        "id": 67,
+        "id": 68,
         "category": "6. A* algoritmus",
         "question": "Mikor mondunk egy A* algoritmust jobban informáltnak egy másiknál?",
         "type": "single",
@@ -1054,7 +1069,7 @@ const questions = [
         ]
     },
     {
-        "id": 68,
+        "id": 69,
         "category": "6. A* algoritmus",
         "question": "Mikor mondjuk a gráfkereséseknél egy heurisztikus függvényről azt, hogy monoton megszorításos?",
         "type": "single",
@@ -1069,7 +1084,7 @@ const questions = [
         ]
     },
     {
-        "id": 69,
+        "id": 70,
         "category": "6. A* algoritmus",
         "question": "Melyik állítás igaz az egyenletes gráfkeresésre?",
         "type": "multi",
@@ -1085,7 +1100,7 @@ const questions = [
         ]
     },
     {
-        "id": 70,
+        "id": 71,
         "category": "6. A* algoritmus",
         "question": "Az alábbiak közül melyek a megengedhető gráfkereső algoritmusok?",
         "type": "multi",
@@ -1103,7 +1118,7 @@ const questions = [
         ]
     },
     {
-        "id": 71,
+        "id": 72,
         "category": "6. A* algoritmus",
         "question": "Mely fogalmak kapcsolhatók egymáshoz a gráfkereséseknél?",
         "type": "multi",
@@ -1121,7 +1136,7 @@ const questions = [
         ]
     },
     {
-        "id": 72,
+        "id": 73,
         "category": "7. Kétszemélyes játékok",
         "question": "Az alábbiak közül melyik tulajdonság NEM volt érvényes a kurzuson tárgyalt játékokra?",
         "type": "single",
@@ -1136,7 +1151,7 @@ const questions = [
         ]
     },
     {
-        "id": 73,
+        "id": 74,
         "category": "7. Kétszemélyes játékok",
         "question": "Hogyan modellezzük a kétszemélyes játékokat?",
         "type": "single",
@@ -1151,7 +1166,7 @@ const questions = [
         ]
     },
     {
-        "id": 74,
+        "id": 75,
         "category": "7. Kétszemélyes játékok",
         "question": "Mi a nyerő stratégiája egy játékosnak egy kétszemélyes játékban?",
         "type": "single",
@@ -1166,7 +1181,7 @@ const questions = [
         ]
     },
     {
-        "id": 75,
+        "id": 76,
         "category": "7. Kétszemélyes játékok",
         "question": "Melyik állítás igaz az alábbiak közül egy játékos nyerő stratégiára?",
         "type": "single",
@@ -1181,7 +1196,7 @@ const questions = [
         ]
     },
     {
-        "id": 76,
+        "id": 77,
         "category": "7. Kétszemélyes játékok",
         "question": "Hogyan lehet megtudni, hogy kinek van győztes stratégiája egy két kimenetelű kétszemélyes játékban?",
         "type": "single",
@@ -1197,7 +1212,7 @@ const questions = [
         ]
     },
     {
-        "id": 77,
+        "id": 78,
         "category": "7. Kétszemélyes játékok",
         "question": "Mikor következik be vágás az alfa-béta algoritmus működése során?",
         "type": "single",
@@ -1212,7 +1227,7 @@ const questions = [
         ]
     },
     {
-        "id": 78,
+        "id": 79,
         "category": "7. Kétszemélyes játékok",
         "question": "Mi a nyugalmi teszt?",
         "type": "single",
@@ -1228,7 +1243,7 @@ const questions = [
         ]
     },
     {
-        "id": 79,
+        "id": 80,
         "category": "7. Kétszemélyes játékok",
         "question": "Mely állítások igazak az alábbiak közül a játékfára?",
         "type": "multi",
@@ -1245,7 +1260,7 @@ const questions = [
         ]
     },
     {
-        "id": 80,
+        "id": 81,
         "category": "7. Kétszemélyes játékok",
         "question": "Melyek az alábbiak közül a minimax algoritmusnak a lépései",
         "type": "multi",
@@ -1261,7 +1276,7 @@ const questions = [
         ]
     },
     {
-        "id": 81,
+        "id": 82,
         "category": "7. Kétszemélyes játékok",
         "question": "Az alábbi részleges játékfa kiértékelő módszerek közül melyik ad a minimax-szal azonos eredményt",
         "type": "multi",
@@ -1277,7 +1292,7 @@ const questions = [
         ]
     },
     {
-        "id": 82,
+        "id": 83,
         "category": "7. Kétszemélyes játékok",
         "question": "Mi a játékfa?",
         "type": "single",
@@ -1293,7 +1308,7 @@ const questions = [
         ]
     },
     {
-        "id": 83,
+        "id": 84,
         "category": "7. Kétszemélyes játékok",
         "question": "Mely fogalmak kapcsolhatók egymáshoz a részleges játékfa-kiértékeléseknél",
         "type": "multi",
@@ -1311,7 +1326,7 @@ const questions = [
         ]
     },
     {
-        "id": 84,
+        "id": 85,
         "category": "8. Evolúciós algoritmusok",
         "question": "Milyen az általános vezérlési stratégiája az evolúciós algoritmusoknak?",
         "type": "single",
@@ -1326,7 +1341,7 @@ const questions = [
         ]
     },
     {
-        "id": 85,
+        "id": 86,
         "category": "8. Evolúciós algoritmusok",
         "question": "Mit tárol az evolúciós algoritmus a globális munkaterületén?",
         "type": "single",
@@ -1341,7 +1356,7 @@ const questions = [
         ]
     },
     {
-        "id": 86,
+        "id": 87,
         "category": "8. Evolúciós algoritmusok",
         "question": "Melyik NEM evolúciós operátor az alábbiak közül?",
         "type": "single",
@@ -1356,7 +1371,7 @@ const questions = [
         ]
     },
     {
-        "id": 87,
+        "id": 88,
         "category": "8. Evolúciós algoritmusok",
         "question": "Hogyan szokták az egyedeket kódolni?",
         "type": "multi",
@@ -1371,7 +1386,7 @@ const questions = [
         ]
     },
     {
-        "id": 88,
+        "id": 89,
         "category": "8. Evolúciós algoritmusok",
         "question": "Hol épülhet véletlenített módszer az evolúciós algoritmusba?",
         "type": "single",
@@ -1386,7 +1401,7 @@ const questions = [
         ]
     },
     {
-        "id": 89,
+        "id": 90,
         "category": "8. Evolúciós algoritmusok",
         "question": "Hol van szerepe a kiválasztásnak az evolúciós algoritmusban?",
         "type": "multi",
@@ -1403,7 +1418,7 @@ const questions = [
         ]
     },
     {
-        "id": 90,
+        "id": 91,
         "category": "8. Evolúciós algoritmusok",
         "question": "Mi a lényege a jó kiválasztási módszernek az evolúciós algoritmusokban?",
         "type": "single",
@@ -1418,7 +1433,7 @@ const questions = [
         ]
     },
     {
-        "id": 91,
+        "id": 92,
         "category": "8. Evolúciós algoritmusok",
         "question": "Mi a kapcsolat a keresztezés és a rekombináció között?",
         "type": "single",
@@ -1433,7 +1448,7 @@ const questions = [
         ]
     },
     {
-        "id": 92,
+        "id": 93,
         "category": "8. Evolúciós algoritmusok",
         "question": "Melyek lehetnek a feltételei az evolúciós algoritmus leállásának?",
         "type": "multi",
@@ -1449,7 +1464,7 @@ const questions = [
         ]
     },
     {
-        "id": 93,
+        "id": 94,
         "category": "8. Evolúciós algoritmusok",
         "question": "Mely keresztezési módszerek őrizik meg permutáció tulajdonságot?",
         "type": "multi",
@@ -1465,7 +1480,7 @@ const questions = [
         ]
     },
     {
-        "id": 94,
+        "id": 95,
         "category": "8. Evolúciós algoritmusok",
         "question": "Az alábbiak közül, melyek alkalmas módszerek a permutáció tulajdonságot megőrző mutációra?",
         "type": "multi",
@@ -1481,7 +1496,7 @@ const questions = [
         ]
     },
     {
-        "id": 95,
+        "id": 96,
         "category": "8. Evolúciós algoritmusok",
         "question": "Mely fogalmak kapcsolhatók egymáshoz az evolúciós algoritmusoknál?",
         "type": "multi",
@@ -1499,7 +1514,7 @@ const questions = [
         ]
     },
     {
-        "id": 96,
+        "id": 97,
         "category": "9. Automatikus következtetés",
         "question": "Mi a rezolúciós gráf?",
         "type": "single",
@@ -1514,7 +1529,7 @@ const questions = [
         ]
     },
     {
-        "id": 97,
+        "id": 98,
         "category": "9. Automatikus következtetés",
         "question": "Melyek a p || q és a !p || !q rezolvensei?",
         "type": "single",
@@ -1529,7 +1544,7 @@ const questions = [
         ]
     },
     {
-        "id": 98,
+        "id": 99,
         "category": "9. Automatikus következtetés",
         "question": "Mi a globális munkaterülete a rezolúciónak",
         "type": "single",
@@ -1544,7 +1559,7 @@ const questions = [
         ]
     },
     {
-        "id": 99,
+        "id": 100,
         "category": "9. Automatikus következtetés",
         "question": "Mi a keresési szabálya a rezolúciónak?",
         "type": "single",
@@ -1559,7 +1574,7 @@ const questions = [
         ]
     },
     {
-        "id": 100,
+        "id": 101,
         "category": "9. Automatikus következtetés",
         "question": "Melyik az alábbiak közül a visszafelé haladó szabályalapú reprezentáció jellemzője",
         "type": "single",
@@ -1574,7 +1589,7 @@ const questions = [
         ]
     },
     {
-        "id": 101,
+        "id": 102,
         "category": "9. Automatikus következtetés",
         "question": "Melyik az alábbiak közül az előrefelé haladó szabályalapú reprezentáció jellemzője",
         "type": "single",
@@ -1589,7 +1604,7 @@ const questions = [
         ]
     },
     {
-        "id": 102,
+        "id": 103,
         "category": "9. Automatikus következtetés",
         "question": "Hogyan kell a rezolúciót válaszadásra felhasználni",
         "type": "multi",
@@ -1604,7 +1619,7 @@ const questions = [
         ]
     },
     {
-        "id": 103,
+        "id": 104,
         "category": "9. Automatikus következtetés",
         "question": "Mi következik abból, hogy a rezolúció módszere helyes",
         "type": "single",
@@ -1620,7 +1635,7 @@ const questions = [
         ]
     },
     {
-        "id": 104,
+        "id": 105,
         "category": "9. Automatikus következtetés",
         "question": "Mi következik abból, hogy a rezolúció módszere teljes",
         "type": "multi",
@@ -1636,7 +1651,7 @@ const questions = [
         ]
     },
     {
-        "id": 105,
+        "id": 106,
         "category": "9. Automatikus következtetés",
         "question": "Melyek az alábbiak közül a rezolúció reprezentációs gráfjának különös tulajdonságai",
         "type": "multi",
@@ -1652,7 +1667,7 @@ const questions = [
         ]
     },
     {
-        "id": 106,
+        "id": 107,
         "category": "9. Automatikus következtetés",
         "question": "Melyek lehetnek az alábbiak közül a rezolúció modellfüggő vágó stratégiái",
         "type": "multi",
@@ -1668,7 +1683,7 @@ const questions = [
         ]
     },
     {
-        "id": 107,
+        "id": 108,
         "category": "9. Automatikus következtetés",
         "question": "Melyik az alábbiak közül a rezolúció modellfüggő sorrendi stratégiái?",
         "type": "single",
@@ -1684,7 +1699,7 @@ const questions = [
         ]
     },
     {
-        "id": 108,
+        "id": 109,
         "category": "10. Bizonytalanság kezelése",
         "question": "Hogyan szimuláljuk az A esemény valószínűségét feltéve, hogy B esemény – amely valószínűsége nagyobb, mint nulla – bekövetkezik?",
         "type": "single",
@@ -1699,7 +1714,7 @@ const questions = [
         ]
     },
     {
-        "id": 109,
+        "id": 110,
         "category": "10. Bizonytalanság kezelése",
         "question": "Mikor mondjuk, hogy A és B események feltételesen függetlenek E eseményre nézve?",
         "type": "single",
@@ -1714,7 +1729,7 @@ const questions = [
         ]
     },
     {
-        "id": 110,
+        "id": 111,
         "category": "10. Bizonytalanság kezelése",
         "question": "Az alábbiak közül melyik a Bayes tétel?",
         "type": "single",
@@ -1729,7 +1744,7 @@ const questions = [
         ]
     },
     {
-        "id": 111,
+        "id": 112,
         "category": "10. Bizonytalanság kezelése",
         "question": "Az alábbiak közül melyik NEM igényel bizonytalanság kezelést?",
         "type": "single",
@@ -1744,7 +1759,7 @@ const questions = [
         ]
     },
     {
-        "id": 112,
+        "id": 113,
         "category": "10. Bizonytalanság kezelése",
         "question": "Milyen gráf a valószínűségi háló",
         "type": "single",
@@ -1759,7 +1774,7 @@ const questions = [
         ]
     },
     {
-        "id": 113,
+        "id": 114,
         "category": "10. Bizonytalanság kezelése",
         "question": "Mit mutat meg a valószínűségi háló feltételes valószínűségi táblája",
         "type": "single",
@@ -1774,7 +1789,7 @@ const questions = [
         ]
     },
     {
-        "id": 114,
+        "id": 115,
         "category": "10. Bizonytalanság kezelése",
         "question": "Mit jelent a normalizálás technikája?",
         "type": "single",
@@ -1790,7 +1805,7 @@ const questions = [
         ]
     },
     {
-        "id": 115,
+        "id": 116,
         "category": "10. Bizonytalanság kezelése",
         "question": "Mit jelent az, hogy egy valószínűségi háló egyszeresen kötött?",
         "type": "single",
@@ -1805,7 +1820,7 @@ const questions = [
         ]
     },
     {
-        "id": 116,
+        "id": 117,
         "category": "10. Bizonytalanság kezelése",
         "question": "Az alábbiak közül melyek igazak a valószínűségi hálókra",
         "type": "multi",
@@ -1821,7 +1836,7 @@ const questions = [
         ]
     },
     {
-        "id": 117,
+        "id": 118,
         "category": "10. Bizonytalanság kezelése",
         "question": "Hogyan javítható a valószínűségi hálóban való számítás hatékonysága, ha a háló nem fa-gráf?",
         "type": "single",
@@ -1838,7 +1853,7 @@ const questions = [
         ]
     },
     {
-        "id": 118,
+        "id": 119,
         "category": "10. Bizonytalanság kezelése",
         "question": "Milyen heurisztikus bizonytalanságkezelő technikákról hallott?",
         "type": "multi",
@@ -1854,7 +1869,7 @@ const questions = [
         ]
     },
     {
-        "id": 119,
+        "id": 120,
         "category": "10. Bizonytalanság kezelése",
         "question": "Mely fogalmak kapcsolhatók egymáshoz a bizonytalanság kezelésénél",
         "type": "multi",
@@ -1872,7 +1887,7 @@ const questions = [
         ]
     },
     {
-        "id": 120,
+        "id": 121,
         "category": "11. Gépi tanulás",
         "question": "Mit jelent az, hogy egy tanulás felügyelt?",
         "type": "single",
@@ -1887,7 +1902,7 @@ const questions = [
         ]
     },
     {
-        "id": 121,
+        "id": 122,
         "category": "11. Gépi tanulás",
         "question": "Mit jelent az, hogy egy tanulás felügyelet nélküli?",
         "type": "single",
@@ -1902,7 +1917,7 @@ const questions = [
         ]
     },
     {
-        "id": 122,
+        "id": 123,
         "category": "11. Gépi tanulás",
         "question": "Mit jelent a zaj a tanító minták esetén?",
         "type": "single",
@@ -1917,7 +1932,7 @@ const questions = [
         ]
     },
     {
-        "id": 123,
+        "id": 124,
         "category": "11. Gépi tanulás",
         "question": "Különböző tanító minták halmazának mikor a legkisebb az információ (entrópia) tartalma a döntési fáknál?",
         "type": "single",
@@ -1932,7 +1947,7 @@ const questions = [
         ]
     },
     {
-        "id": 124,
+        "id": 125,
         "category": "11. Gépi tanulás",
         "question": "Hogyan értékelünk ki a döntési fa építése során egy levélcsúcsot akkor, ha nem tartoznak hozzá tanító minták?",
         "type": "single",
@@ -1947,7 +1962,7 @@ const questions = [
         ]
     },
     {
-        "id": 125,
+        "id": 126,
         "category": "11. Gépi tanulás",
         "question": "A döntési fa építése során az alábbiak közül milyen csúcsok fordulhatnak elő a fában?",
         "type": "multi",
@@ -1964,7 +1979,7 @@ const questions = [
         ]
     },
     {
-        "id": 126,
+        "id": 127,
         "category": "11. Gépi tanulás",
         "question": "Mely állítások igazak a döntési fára?",
         "type": "multi",
@@ -1980,7 +1995,7 @@ const questions = [
         ]
     },
     {
-        "id": 127,
+        "id": 128,
         "category": "11. Gépi tanulás",
         "question": "Mely állítások igazak a döntési fa módszerére?",
         "type": "single",
@@ -1996,7 +2011,7 @@ const questions = [
         ]
     },
     {
-        "id": 128,
+        "id": 129,
         "category": "11. Gépi tanulás",
         "question": "Mely állítások igazak k-legközelebbi szomszéd módszerére?",
         "type": "multi",
@@ -2012,7 +2027,7 @@ const questions = [
         ]
     },
     {
-        "id": 129,
+        "id": 130,
         "category": "11. Gépi tanulás",
         "question": "Milyen felügyelt tanulási módszereket ismert meg a kurzuson?",
         "type": "multi",
@@ -2029,7 +2044,7 @@ const questions = [
         ]
     },
     {
-        "id": 130,
+        "id": 131,
         "category": "11. Gépi tanulás",
         "question": "Hol jutott szerepe a véletlennek a véletlen erdő módszerében?",
         "type": "multi",
@@ -2045,7 +2060,7 @@ const questions = [
         ]
     },
     {
-        "id": 131,
+        "id": 132,
         "category": "11. Gépi tanulás",
         "question": "Mely fogalmak kapcsolhatók össze az alábbiak közül a gépi tanulás témakörében?",
         "type": "multi",
@@ -2063,7 +2078,7 @@ const questions = [
         ]
     },
     {
-        "id": 132,
+        "id": 133,
         "category": "12. Neurális hálók",
         "question": "Az alábbiak közül melyik jellemzik a homogén többrétegű előrecsatolt hálózatot?",
         "type": "multi",
@@ -2079,7 +2094,7 @@ const questions = [
         ]
     },
     {
-        "id": 133,
+        "id": 134,
         "category": "12. Neurális hálók",
         "question": "Mit jelent az input vektorizálása?",
         "type": "single",
@@ -2094,7 +2109,7 @@ const questions = [
         ]
     },
     {
-        "id": 134,
+        "id": 135,
         "category": "12. Neurális hálók",
         "question": "Jellemezze a szigmoid kimeneti függvényt!",
         "type": "single",
@@ -2109,7 +2124,7 @@ const questions = [
         ]
     },
     {
-        "id": 135,
+        "id": 136,
         "category": "12. Neurális hálók",
         "question": "Az alábbiak közül melyik hálózatnak NEM lehet több rétegű topológiája?",
         "type": "single",
@@ -2124,7 +2139,7 @@ const questions = [
         ]
     },
     {
-        "id": 136,
+        "id": 137,
         "category": "12. Neurális hálók",
         "question": "Mi a delta tanulási szabály?",
         "type": "single",
@@ -2139,7 +2154,7 @@ const questions = [
         ]
     },
     {
-        "id": 137,
+        "id": 138,
         "category": "12. Neurális hálók",
         "question": "Mire alkalmazzák a lineárisan szeparálható kifejezést?",
         "type": "single",
@@ -2154,7 +2169,7 @@ const questions = [
         ]
     },
     {
-        "id": 138,
+        "id": 139,
         "category": "12. Neurális hálók",
         "question": "A mesterséges neuron hálózatokra felügyelt vagy felügyelet nélküli tanulási módszer alkalmazható?",
         "type": "single",
@@ -2169,7 +2184,7 @@ const questions = [
         ]
     },
     {
-        "id": 139,
+        "id": 140,
         "category": "12. Neurális hálók",
         "question": "Hogyan lehet Rosenblatt-féle perceptronok felhasználásával koordinátapárokat úgy osztályozni, hogy megmondjuk melyek esnek bele egy megadott háromszögbe, és melyek nem?",
         "type": "single",
@@ -2184,7 +2199,7 @@ const questions = [
         ]
     },
     {
-        "id": 140,
+        "id": 141,
         "category": "12. Neurális hálók",
         "question": "A mesterséges neuronhálózatot egy olyan paraméteres függvénynek tekinthetjük amellyel a megoldandó problémát reprezentáló leképezést közelítjük.  Melyek ebben a paraméterek?",
         "type": "single",
@@ -2199,7 +2214,7 @@ const questions = [
         ]
     },
     {
-        "id": 141,
+        "id": 142,
         "category": "12. Neurális hálók",
         "question": "Mit értünk a hiba-visszaterjesztés (error-backpropagation) módszere alatt?",
         "type": "single",
@@ -2214,7 +2229,7 @@ const questions = [
         ]
     },
     {
-        "id": 142,
+        "id": 143,
         "category": "12. Neurális hálók",
         "question": "Mit értünk a Hopfield modell konfigurációs terén?",
         "type": "single",
@@ -2230,7 +2245,7 @@ const questions = [
         ]
     },
     {
-        "id": 143,
+        "id": 144,
         "category": "12. Neurális hálók",
         "question": "Az alábbiak közül mely állítások igazak a mesterséges neuronhálózatokra?",
         "type": "multi",
@@ -2246,7 +2261,7 @@ const questions = [
         ]
     },
     {
-        "id": 144,
+        "id": 145,
         "category": "13. Egyéb talált kérdések",
         "question": "Mit nevezünk egy kereső rendszer globális munkaterületének?",
         "type": "multi",
@@ -2261,7 +2276,7 @@ const questions = [
         ]
     },
     {
-        "id": 145,
+        "id": 146,
         "category": "13. Egyéb talált kérdések",
         "question": "Melyek a hiperút tulajdonságai?",
         "type": "multi",
@@ -2277,7 +2292,7 @@ const questions = [
         ]
     },
     {
-        "id": 146,
+        "id": 147,
         "category": "13. Egyéb talált kérdések",
         "question": "Az alábbi algoritmusok közül melyek használnak módosítható stratégiát?",
         "type": "multi",
@@ -2292,7 +2307,7 @@ const questions = [
         ]
     },
     {
-        "id": 147,
+        "id": 148,
         "category": "13. Egyéb talált kérdések",
         "question": "Az alábbi módszerek közül melyekbe épült be visszalépéses keresés?",
         "type": "multi",
@@ -2308,7 +2323,7 @@ const questions = [
         ]
     },
     {
-        "id": 148,
+        "id": 149,
         "category": "13. Egyéb talált kérdések",
         "question": "Mit reprezentál egy kétszemélyes játéknak egy állapota?",
         "type": "single",
@@ -2323,7 +2338,7 @@ const questions = [
         ]
     },
     {
-        "id": 149,
+        "id": 150,
         "category": "13. Egyéb talált kérdések",
         "question": "Hogyan szokták az egyeneseket kódolni?",
         "type": "single",
@@ -2338,7 +2353,7 @@ const questions = [
         ]
     },
     {
-        "id": 150,
+        "id": 151,
         "category": "13. Egyéb talált kérdések",
         "question": "Hogyan nevezzük a gráfkeresések globális munkaterületén tárolt gráfot?",
         "type": "single",
@@ -2353,7 +2368,7 @@ const questions = [
         ]
     },
     {
-        "id": 151,
+        "id": 152,
         "category": "13. Egyéb talált kérdések",
         "question": "Mit nevezünk egy hiperút bejárásának?",
         "type": "single",
@@ -2368,7 +2383,7 @@ const questions = [
         ]
     },
     {
-        "id": 152,
+        "id": 153,
         "category": "13. Egyéb talált kérdések",
         "question": "Az alábbiak közül melyik NEM modellfüggő vezérlési stratégia?",
         "type": "multi",
@@ -2383,7 +2398,7 @@ const questions = [
         ]
     },
     {
-        "id": 153,
+        "id": 154,
         "category": "13. Egyéb talált kérdések",
         "question": "Mit nem kell eltárolni egy döntési fa építése során egy levélcsúcsban?",
         "type": "single",
@@ -2398,7 +2413,7 @@ const questions = [
         ]
     },
     {
-        "id": 154,
+        "id": 155,
         "category": "13. Egyéb talált kérdések",
         "question": "Hány lépésből áll az evolúciós ciklus?",
         "type": "single",
@@ -2413,7 +2428,7 @@ const questions = [
         ]
     },
     {
-        "id": 155,
+        "id": 156,
         "category": "13. Egyéb talált kérdések",
         "question": "Melyik állítás igaz a mélységi gráfkeresésre?",
         "type": "single",
@@ -2428,7 +2443,7 @@ const questions = [
         ]
     },
     {
-        "id": 156,
+        "id": 157,
         "category": "13. Egyéb talált kérdések",
         "question": "Mit tartalmaz a visszalépéses keresések globális munkaterülete?",
         "type": "single",
@@ -2443,7 +2458,7 @@ const questions = [
         ]
     },
     {
-        "id": 157,
+        "id": 158,
         "category": "13. Egyéb talált kérdések",
         "question": "A korlátkielégítési modellhez az alábbiak közül melyik reprezentációs gráfot érdemes elkészíteni?",
         "type": "single",
@@ -2458,7 +2473,7 @@ const questions = [
         ]
     },
     {
-        "id": 158,
+        "id": 159,
         "category": "13. Egyéb talált kérdések",
         "question": "Hogyan lehet megtudni, hogy kinek van nem-vesztő stratégiája egy három esélyes (győzelem, vereség, döntetlen) kimenetelű kétszemélyes játékban?",
         "type": "multi",
@@ -2474,7 +2489,7 @@ const questions = [
         ]
     },
     {
-        "id": 159,
+        "id": 160,
         "category": "13. Egyéb talált kérdések",
         "question": "A félév során tanult módszerek közül melyik NEM tekinthető útkereső algoritmusnak?",
         "type": "single",
