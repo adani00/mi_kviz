@@ -335,7 +335,7 @@ const questions = [
       { "left": "Dekompozíciós operátor", "right": "hiperél" },
       { "left": "Állapot", "right": "Csúcs" },
       { "left": "Művelet", "right": "irányított él" },
-      { "left": "dekompozíciós művelet", "right": "hiperút" }
+      { "left": "dekompozíciós folyamat", "right": "hiperút" }
     ]
   },
   {
@@ -2452,6 +2452,7 @@ const questions = [
 ];
 
 window.questions = questions;
+
 
 
 
