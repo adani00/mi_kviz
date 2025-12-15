@@ -916,18 +916,12 @@ const questions = [
     "id": 60,
     "category": "5. Gráfkeresés",
     "question": "Mely fogalmak kapcsolhatók egymáshoz a gráfkereséseknél:",
-    "type": "multi",
-    "options": [
-      "globális munkaterület: keresőgráf",
-      "keresési szabály: kiterjesztés",
-      "pointerfüggvény: szülőcsúcs",
-      "csökkenő kiértékelő függvény: korrektség"
-    ],
-    "correct": [
-      0,
-      1,
-      2,
-      3
+    "type": "pair",
+    "pairs": [
+      { "left": "globális munkaterület", "right": "keresőgráf" },
+      { "left": "keresési szabály", "right": "kiterjesztés" },
+      { "left": "pointerfüggvény", "right": "szülőcsúcs" },
+      { "left": "csökkenő kiértékelő függvény", "right": "korrektség" }
     ]
   },
   {
@@ -1287,18 +1281,12 @@ const questions = [
     "id": 84,
     "category": "7. Kétszemélyes játékok",
     "question": "Mely fogalmak kapcsolhatók egymáshoz a részleges játékfa-kiértékeléseknél",
-    "type": "multi",
-    "options": [
-      "negamax algoritmus: könnyebb implementáció",
-      "(n,m) átlagoló kiértékelés: kiértékelő függvény tévedései",
-      "váltakozó mélységű kiértékelés: megbízhatóbb kiértékelés",
-      "alfa-béta algoritmus: hatékonyabb módszer"
-    ],
-    "correct": [
-      0,
-      1,
-      2,
-      3
+    "type": "pair",
+    "pairs": [
+      { "left": "negamax algoritmus", "right": "könnyebb implementáció" },
+      { "left": "(n,m) átlagoló kiértékelés", "right": "kiértékelő függvény tévedései" },
+      { "left": "váltakozó mélységű kiértékelés", "right": "megbízhatóbb kiértékelés" },
+      { "left": "alfa-béta algoritmus", "right": "hatékonyabb módszer" }
     ]
   },
   {
@@ -1842,18 +1830,12 @@ const questions = [
     "id": 120,
     "category": "10. Bizonytalanság kezelése",
     "question": "Mely fogalmak kapcsolhatók egymáshoz a bizonytalanság kezelésénél",
-    "type": "multi",
-    "options": [
-      "fa-gráf: csúcsok összevonása",
-      "heurisztikus módszer: MYCIN",
-      "bizonytalanság következmény: feltételes valószínűség",
-      "valószínűségi háló: véges körmentes gráf"
-    ],
-    "correct": [
-      0,
-      1,
-      2,
-      3
+    "type": "pair",
+    "pairs": [
+      { "left": "fa-gráf", "right": "csúcsok összevonása" },
+      { "left": "heurisztikus módszer", "right": "MYCIN" },
+      { "left": "bizonytalanság következmény", "right": "feltételes valószínűség" },
+      { "left": "valószínűségi háló", "right": "véges körmentes gráf" }
     ]
   },
   {
@@ -2033,18 +2015,12 @@ const questions = [
     "id": 132,
     "category": "11. Gépi tanulás",
     "question": "Mely fogalmak kapcsolhatók össze az alábbiak közül a gépi tanulás témakörében?",
-    "type": "multi",
-    "options": [
-      "Felügyelt tanulás: tanító minták elvárt kimenete",
-      "kereszt entrópia: 2-es norma",
-      "döntési fa: véletlen erdő",
-      "k-közép módszer: osztályozási feladat"
-    ],
-    "correct": [
-      0,
-      1,
-      2,
-      3
+    "type": "pair",
+    "pairs": [
+      { "left": "Felügyelt tanulás", "right": "tanító minták elvárt kimenete" },
+      { "left": "kereszt entrópia", "right": "2-es norma" },
+      { "left": "döntési fa", "right": "véletlen erdő" },
+      { "left": "k-közép módszer", "right": "osztályozási feladat" }
     ]
   },
   {
