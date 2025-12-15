@@ -835,7 +835,7 @@ const questions = [
   {
     "id": 55,
     "category": "5. Gráfkeresés",
-    "question": "Mikor nevezünk egy kiértékelő függvény csökkenőnek",
+    "question": "Mikor nevezünk egy kiértékelő függvényt csökkenőnek",
     "type": "single",
     "options": [
       "Ha egy csúcs függvényértéke soha nem nő, viszont mindig csökken valahányszor olcsóbb odavezető utat találunk hozzá",
@@ -1786,7 +1786,7 @@ const questions = [
       "Egyetlen célcsúcsa van",
       "Irányított élei a valószínűségi változók közötti közvetlen ok-okozati összefüggések mutatják",
       "Az éleiről elhagyva az irányítást a hálóból egy irányítatlan fát kapunk",
-      "Csúcsai egy adott tárgykör valószínűségét változóit reprezentálják"
+      "Csúcsai egy adott tárgykör valószínűségi változóit reprezentálják"
     ],
     "correct": [
       1,
@@ -2321,7 +2321,7 @@ const questions = [
     "options": [
       "Olyan sorozatot, amelynek elemei a hiperút csúcsaiból álló sorozatok.",
       "A hiperút összes csúcsát egyszer tartalmazó meghatározott sorrendű sorozat.",
-      "A hiperút összes hiperélét egyszer tartalmazó eghatározás.",
+      "A hiperút összes hiperélét egyszer tartalmazó meghatározás.",
       "A hiperút összes csúcsából összeállított meghatározott sorrendű sorozatot."
     ],
     "correct": [
@@ -2452,6 +2452,7 @@ const questions = [
 ];
 
 window.questions = questions;
+
 
 
 
