@@ -335,7 +335,7 @@ const questions = [
       { "left": "Dekompozíciós operátor", "right": "hiperél" },
       { "left": "Állapot", "right": "Csúcs" },
       { "left": "Művelet", "right": "irányított él" },
-      { "left": "dekompozíciós művelet", "right": "hiperút" }
+      { "left": "dekompozíciós folyamat", "right": "hiperút" }
     ]
   },
   {
@@ -824,7 +824,7 @@ const questions = [
     "type": "single",
     "options": [
       "A startcsúcsból a keresőgráfbeli csúcsokhoz, a keresőgráfban vezető egyik út költségét",
-      "A startcsúcsból a keresőgráfbeli csúcsokhoz vezető egyik új költségét",
+      "A startcsúcsból a keresőgráfbeli csúcsokhoz vezető egyik út költségét",
       "A startcsúcsból a keresőgráfbeli csúcsokhoz, a keresőgráfban vezető legolcsóbb út költségét",
       "A startcsúcsból a keresőgráfbeli csúcsokhoz a szülőre visszamutató pointerfüggvény által kijelölt út költségét"
     ],
@@ -2210,7 +2210,7 @@ const questions = [
     "id": 145,
     "category": "13. Egyéb talált kérdések",
     "question": "Mit nevezünk egy kereső rendszer globális munkaterületének?",
-    "type": "multi",
+    "type": "single",
     "options": [
       "A kereső rendszer által használt memóriaterületet.",
       "Azt a memóriaterületet, amelyen a keresés eltárolja a megszerzett, és megőrzésre hasznosnak ítélt ismereteket.",
@@ -2241,7 +2241,7 @@ const questions = [
     "id": 147,
     "category": "13. Egyéb talált kérdések",
     "question": "Az alábbi algoritmusok közül melyek használnak módosítható stratégiát?",
-    "type": "multi",
+    "type": "single",
     "options": [
       "szélességi gráfkeresés",
       "tabu keresés",
@@ -2332,7 +2332,7 @@ const questions = [
     "id": 153,
     "category": "13. Egyéb talált kérdések",
     "question": "Az alábbiak közül melyik NEM modellfüggő vezérlési stratégia?",
-    "type": "multi",
+    "type": "single",
     "options": [
       "A legjobb csúcsot válasszuk a szomszédos csúcsok közül.",
       "A visszalépéses keresés részlegesen előre vizsgáló (FC) módszere.",
@@ -2446,9 +2446,15 @@ const questions = [
       "k-legközelebbi szomszéd módszere"
     ],
     "correct": [
-      3
+      0
     ]
   }
 ];
 
 window.questions = questions;
+
+
+
+
+
+
