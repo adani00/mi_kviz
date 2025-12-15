@@ -824,7 +824,7 @@ const questions = [
     "type": "single",
     "options": [
       "A startcsúcsból a keresőgráfbeli csúcsokhoz, a keresőgráfban vezető egyik út költségét",
-      "A startcsúcsból a keresőgráfbeli csúcsokhoz vezető egyik új költségét",
+      "A startcsúcsból a keresőgráfbeli csúcsokhoz vezető egyik út költségét",
       "A startcsúcsból a keresőgráfbeli csúcsokhoz, a keresőgráfban vezető legolcsóbb út költségét",
       "A startcsúcsból a keresőgráfbeli csúcsokhoz a szülőre visszamutató pointerfüggvény által kijelölt út költségét"
     ],
@@ -2446,12 +2446,13 @@ const questions = [
       "k-legközelebbi szomszéd módszere"
     ],
     "correct": [
-      3
+      0
     ]
   }
 ];
 
 window.questions = questions;
+
 
 
 
