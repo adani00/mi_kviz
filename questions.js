@@ -579,7 +579,7 @@ const questions = [
     "options": [
       "A startcsúcsból kiinduló egyik utat és annak csúcsaiból kivezető még nem vizsgált éleket.",
       "Az eddig bejárt részgráfot és külön annak a startcsúcsból kiinduló egyik útját annak csúcsaiból kivezető még nem vizsgált élekkel együtt",
-      "Ez eddig bejárt startcsúcsból kiinduló utakat azok csúcsaiból kivezető még nem vizsgált élekkel együtt",
+      "Az eddig bejárt startcsúcsból kiinduló utakat azok csúcsaiból kivezető még nem vizsgált élekkel együtt",
       "A reprezentációs gráfot és külön annak a startcsúcsból kiinduló egyik útját"
     ],
     "correct": [
@@ -2452,6 +2452,7 @@ const questions = [
 ];
 
 window.questions = questions;
+
 
 
 
