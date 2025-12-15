@@ -547,7 +547,7 @@ const questions = [
   {
     "id": 36,
     "category": "3. Lokális keresések",
-    "question": "A tabu keresésnél használt kiértékelő függvényy, amellyel össze tudjuk hasonlítani az aktuális csúcs gyerekeit,  heurisztikus stratégiának számít?",
+    "question": "A tabu keresésnél használt kiértékelő függvény, amellyel össze tudjuk hasonlítani az aktuális csúcs gyerekeit,  heurisztikus stratégiának számít?",
     "type": "single",
     "options": [
       "A heurisztikának nincs köze a vezérlési stratégiához",
@@ -2452,6 +2452,7 @@ const questions = [
 ];
 
 window.questions = questions;
+
 
 
 
