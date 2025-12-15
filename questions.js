@@ -1493,7 +1493,7 @@ const questions = [
     "type": "single",
     "options": [
       "p || q || !q és q || p || !q",
-      "p ||!q és q || !q",
+      "p ||!p és q || !q",
       "üres klóz",
       "nem rezerválhatóak"
     ],
@@ -2452,6 +2452,7 @@ const questions = [
 ];
 
 window.questions = questions;
+
 
 
 
